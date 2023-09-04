@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Strength</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/training-gee06f21b8_1920.jpg');
+        height: 1000px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 200px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 53%;
+        margin: 50px auto;
+        /* border: 2px solid red; */
+        border-radius: 12px;
+    }
+
+    .right {
+        position: absolute;
+        /* top: 3px; */
+        /* left: 1150px; */
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(187, 226, 15);
+    }
+
+    .btn {
+        font-family: cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        /* border: 2px solid red; */
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: orange
+    }
+
+    .container {
+        font-size: 15px;
+        border: 2px solid rgb(255, 255, 255);
+        margin: 184px 73px;
+        padding: 21px 34px;
+        width: 43%;
+        border-radius: 22px;
+    }
+
+    .form-group input {
+        font-family: cursive;
+        text-align: center;
+        display: block;
+        width: 234px;
+        padding: 8px;
+        margin: 8px auto;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 100px;
+        margin: 12px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/Logo.jpeg" alt="">
+            <div>Power Strength</div>
+        </div>
+        <!-- mid for navigation  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right for a bottons -->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">E-mail us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone-Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your E-mail">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
